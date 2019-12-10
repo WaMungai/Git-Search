@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Katibeh&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet');
 
 #view{
   padding-left: 35%;
   padding-top:15px;
-  font-family: 'Katibeh', cursive;
+  font-family: 'Mansalva', cursive;
   font-weight:bold;
   font-size:20%;
   
 }
 
 h2{
-  font-family: 'Katibeh', cursive;
+  font-family:  'Mansalva', cursive;
   text-decoration: underline;
   font-weight: bold;
 }

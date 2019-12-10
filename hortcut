@@ -1,0 +1,23 @@
+[33mcommit e323a5955b20be608361bc31815246e14c77d8e7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Joyce <wamungai29@gmail.com>
+Date:   Tue Dec 10 12:53:48 2019 +0300
+
+    Hide the environment.ts file in the gitignore file.
+
+[33mcommit 02d259b5fad3f219b1f3745213cafb57bb34845e[m
+Author: Joyce <wamungai29@gmail.com>
+Date:   Tue Dec 10 12:52:01 2019 +0300
+
+    Create the user class and define the constructor function
+
+[33mcommit 3d5d101b3105e3cb28cbae4195806fb6b047f235[m
+Author: Joyce <wamungai29@gmail.com>
+Date:   Tue Dec 10 12:49:13 2019 +0300
+
+    Create the repos class and define the constructor function.
+
+[33mcommit 8ba1f44af00c6ef08f69f6b4383c9a38cf0c044c[m
+Author: Joyce <wamungai29@gmail.com>
+Date:   Tue Dec 10 12:38:33 2019 +0300
+
+    Input promise logic.
