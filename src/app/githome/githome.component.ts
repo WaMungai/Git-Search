@@ -25,11 +25,11 @@ githubs:any[];
       ()=>{
         this.githubs=this.Gitservice.githubs;
         console.log(this.githubs);
-
       },
       (error)=>{
         console.log(error)
       }
+     
     )
     
   }
