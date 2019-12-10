@@ -6,18 +6,13 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./git-form.component.css']
 })
 export class GitFormComponent implements OnInit {
-
-@Output()  emitSearch = new EventEmitter<any>()
+  @Output() emitSearch =new EventEmitter<any>()
 
   searchTerm:string;
-    constructor() { }
-    
-search(){
-  this.emitSearch.emit(this.searchTerm)
-  
-}
-
-
+  constructor(){}
+  search(){
+    this.emitSearch.emit(this.searchTerm)
+  }
 
   ngOnInit() {
   }
