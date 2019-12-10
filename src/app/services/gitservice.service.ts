@@ -17,12 +17,11 @@ export class GitserviceService {
   gitrepos:any;
 
   constructor(private http:HttpClient) {}
-
-    searchGithub(searchTerm: string){
-      interface data {
-        login:string;
-        username:string;
-        avatar: string;
+  searchGithub(searchTerm:string){
+    interface data{
+      login:string;
+      username:string;
+      avatar:string;
         html_url: string;
         name: string;
         url: string;
