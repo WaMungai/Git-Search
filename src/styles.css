@@ -3,7 +3,7 @@
 
 
 body{
-    background-image:url("https://pikwizard.com/photos/5de6f9dadb8db1e4556b890bbbb8c514-m.jpg");
+    background-image:url("https://pikwizard.com/photos/0dd1470c67d266562ac5a47f29a7ba4f-m.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 color: white;
@@ -12,7 +12,7 @@ background-attachment: fixed;
 }
 .overlay{
     z-index: 2;
-    background-image: url("https://pikwizard.com/photos/5de6f9dadb8db1e4556b890bbbb8c514-m.jpg");
+    background-image: url("https://pikwizard.com/photos/0dd1470c67d266562ac5a47f29a7ba4f-m.jpg");
 }
 .card{
     background-color:white;

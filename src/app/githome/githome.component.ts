@@ -17,7 +17,7 @@ githubs:any[];
 
 
   ngOnInit() {
-    this.searchGit("s-odhiambo");
+    this.searchGit("WaMungai");
   }
 
   searchGit(searchTerm){
