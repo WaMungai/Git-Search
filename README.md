@@ -1,11 +1,11 @@
 # GitSearch
 This is a website which allows users to enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories.
 
-#### 24 August 2019
-Samuel Odhiambo.
+#### 10 December 2019
+Joyce Mungai
 
 ## Setup/Installation Requirements
-* You can view the page at https://s-odhiambo.github.io/git-search/
+* You can view the page at 
 
 ## Contact Information
 If you need clarification on any aspect, feel free to reach me on github s-odhiambo
