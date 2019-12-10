@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Katibeh&display=swap');
+h2{
+  font-family: 'Katibeh', cursive; 
+}
+
+h4{
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: 'Katibeh', cursive;
+  font-size:40px;
+}
+
+#cards{
+  font-family: 'Katibeh', cursive;
+  font-size:30px;
+}
+
+#up{
+  color:whitesmoke;
+  font-size:24px;
+}

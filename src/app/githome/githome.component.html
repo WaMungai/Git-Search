@@ -1,0 +1,37 @@
+<div class="container">
+  <br>
+  <h4 class="text-center">Check Out Github User Profiles Here!</h4>
+  <app-git-form (emitSearch)="searchGit($event)"></app-git-form>
+</div>
+<div class="container ">
+  <div class="row">
+    <div class="col-md-6">
+      <div *ngFor="let github of githubs">
+        <br><br>
+        <div class="text-center">
+          <img src="{{github.avatar_url}}"
+            class="align-center img-fluid  z-depth-3 rounded-circle animated jello delay-3s" width="60%" height="40%"
+            alt="github avatar">
+        </div>
+        <div id="view">
+          <button type="button" class="btn btn-success"> View Profile on Github</button><br><br><br><br>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h2>GITHUB PROFILE DETAILS</h2>
+      <div *ngFor="let github of githubs">
+        <p appHighlight class="lead"> <strong>Name:</strong> {{github.name}}</p>
+        <p appHighlight> <strong>Username:</strong> {{github.login}}</p>
+        <p appHighlight> <strong>Bio:</strong> {{github.bio}}</p>
+        <p appHighlight> <strong>Public Repos:</strong> {{github.public_repos}}</p>
+        <p appHighlight> <strong>Followers:</strong> {{github.followers}}</p>
+        <p appHighlight> <strong>Following:</strong> {{github.following}}</p>
+        <p appHighlight> <strong>Location:</strong> {{github.location}}</p>
+        <p appHighlight> <strong>Join Date:</strong> {{github.created_at |date}}</p>
+        <p><a href="{{github.html_url}}" target="_blank"></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

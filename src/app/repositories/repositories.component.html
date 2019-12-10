@@ -1,0 +1,30 @@
+<div class="container">
+  <br>
+  <h4 class="text-center">Check Out Github User Repositories Here!</h4>
+  <app-git-form (emitSearch)="searchRepo($event)"></app-git-form>
+</div>
+
+<h2 class="text-center">REPOSITORIES </h2>
+<div class="container card-columns">
+  <div class="card" *ngFor="let gitrepo of gitrepos">
+    <div class="card">
+      <div class="card-header">
+        <h2>{{gitrepo.name}}</h2>
+      </div>
+      <div id="cards">
+        <div class="card-body">
+          <p class="card-text"><strong>Description: </strong>{{gitrepo.description}}</p>
+          <p class="card-text"><strong>Create at: </strong>{{gitrepo.created_at|date}}</p>
+          <p class="card-text"> <strong>Language: </strong> {{gitrepo.language}}.</p>
+
+          <a href="{{gitrepo.html_url}}" target="_blank" id="up" class="btn btn-outline-dark btn-lg btn-block">Check Out
+            In Github</a>
+        </div>
+      </div>
+      <div class="card-footer flex-footer">
+        <small class=""><strong>Branch: </strong>{{gitrepo.default_branch}} </small>
+        <small class="ml-4"><strong> Forks: </strong>{{gitrepo.forks_count}}</small>
+      </div>
+    </div>
+  </div>
+</div>
